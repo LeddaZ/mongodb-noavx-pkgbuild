@@ -13,7 +13,7 @@
 pkgname=mongodb-noavx
 _pkgname=mongodb
 # #.<odd number>.# releases are unstable development/testing
-pkgver=7.0.7
+pkgver=7.0.8
 pkgrel=1
 pkgdesc="A high-performance, open source, schema-free document-oriented database"
 arch=("x86_64" "aarch64")
@@ -34,7 +34,7 @@ source=("https://fastdl.mongodb.org/src/mongodb-src-r$pkgver.tar.gz"
         mongodb-5.0.2-no-compass.patch
         mongodb-7.0.2-sconstruct.patch
         disable-avx.patch)
-sha256sums=('a2dce499bf32271baca14f430e3f57360d2ac70248a473ff1d2f381883ac2696'
+sha256sums=('9bfb291379bde902a9c35ee30455a335381fec4836f59f3ef399eeef07501412'
             '3757d548cfb0e697f59b9104f39a344bb3d15f802608085f838cb2495c065795'
             'b7d18726225cd447e353007f896ff7e4cbedb2f641077bce70ab9d292e8f8d39'
             '4ff40320e04bf8c3e05cbc662f8ea549a6b8494d1fda64b1de190c88587bfafd'
